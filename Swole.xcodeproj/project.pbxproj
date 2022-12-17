@@ -12,6 +12,8 @@
 		878FBB2D294D4277007012E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FBB2C294D4277007012E1 /* Assets.xcassets */; };
 		878FBB30294D4277007012E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FBB2F294D4277007012E1 /* Preview Assets.xcassets */; };
 		878FBB38294D432B007012E1 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 878FBB37294D432B007012E1 /* ConfettiSwiftUI */; };
+		878FBB3F294D5D37007012E1 /* SitupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FBB3E294D5D37007012E1 /* SitupView.swift */; };
+		878FBB41294D5D43007012E1 /* SquatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FBB40294D5D43007012E1 /* SquatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		878FBB2A294D4276007012E1 /* PushupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupView.swift; sourceTree = "<group>"; };
 		878FBB2C294D4277007012E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		878FBB2F294D4277007012E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		878FBB3E294D5D37007012E1 /* SitupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitupView.swift; sourceTree = "<group>"; };
+		878FBB40294D5D43007012E1 /* SquatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				878FBB2A294D4276007012E1 /* PushupView.swift */,
 				878FBB2C294D4277007012E1 /* Assets.xcassets */,
 				878FBB2E294D4277007012E1 /* Preview Content */,
+				878FBB3E294D5D37007012E1 /* SitupView.swift */,
+				878FBB40294D5D43007012E1 /* SquatView.swift */,
 			);
 			path = Swole;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			files = (
 				878FBB2B294D4276007012E1 /* PushupView.swift in Sources */,
 				878FBB29294D4276007012E1 /* SwoleApp.swift in Sources */,
+				878FBB3F294D5D37007012E1 /* SitupView.swift in Sources */,
+				878FBB41294D5D43007012E1 /* SquatView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

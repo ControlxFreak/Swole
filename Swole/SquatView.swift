@@ -1,5 +1,5 @@
 //
-//  PushupView.swift
+//  SquatView.swift
 //  Swole
 //
 //  Created by Anthony Trezza on 12/13/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 import ConfettiSwiftUI
 
-struct PushupView: View {
+struct SquatView: View {
     @State private var manmode: Bool = false
     @State private var count: Int = 0
     @State private var goal: Int = 10000
@@ -20,7 +20,7 @@ struct PushupView: View {
             Button {
                 count += increment
             } label: {
-                Image("cat-pushup")
+                Image("cat-squat")
                 .resizable()
                 .scaledToFit()
                 .padding()
@@ -39,8 +39,8 @@ struct PushupView: View {
     }
 }
 
-struct PushupView_Previews: PreviewProvider {
+struct SquatView_Previews: PreviewProvider {
     static var previews: some View {
-        PushupView()
+        SquatView()
     }
 }
