@@ -11,7 +11,7 @@ import SwiftUI
 struct SwoleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PushupView()
         }
     }
 }
