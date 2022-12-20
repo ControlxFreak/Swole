@@ -2,35 +2,35 @@
 //  PushupView.swift
 //  Swole
 //
-//  Created by Anthony Trezza on 12/13/22.
+//  Created by Anthony Trezza on 12/18/22.
 //
 
+import Foundation
 import SwiftUI
 import ConfettiSwiftUI
 
 struct PushupView: View {
-    @State private var manmode: Bool = false
-    @State private var count: Int = 0
-    @State private var goal: Int = 10000
-    @State private var increment: Int = 25
+    @AppStorage("pushup_count") private var pushup_count = 0
+    @AppStorage("pushup_goal") private var pushup_goal = 10000
+    @AppStorage("pushup_inc") private var pushup_inc = 10
 
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
             Button {
-                count += increment
+                pushup_count += pushup_inc
             } label: {
                 Image("cat-pushup")
-                .resizable()
-                .scaledToFit()
-                .padding()
-            }.confettiCannon(counter: $count, num: 50, radius: 500.0)
-            ProgressView(value: Float(count), total: Float(goal))
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+            }
+            ProgressView(value: Float(pushup_count), total: Float(pushup_goal))
             {
                 HStack{
-                    Text("\(count) / \(goal)")
+                    Text("\(pushup_count) / \(pushup_goal)")
                     Spacer()
-                    Text(String(format: "%.2f", 100*Float(count)/Float(goal)) + "%")
+                    Text(String(format: "%.2f", 100*Float(pushup_count)/Float(pushup_goal)) + "%")
                 }
             }.padding()
             Spacer()

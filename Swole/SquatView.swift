@@ -2,35 +2,34 @@
 //  SquatView.swift
 //  Swole
 //
-//  Created by Anthony Trezza on 12/13/22.
+//  Created by Anthony Trezza on 12/18/22.
 //
-
+import Foundation
 import SwiftUI
 import ConfettiSwiftUI
 
 struct SquatView: View {
-    @State private var manmode: Bool = false
-    @State private var count: Int = 0
-    @State private var goal: Int = 10000
-    @State private var increment: Int = 25
+    @AppStorage("squat_count") private var squat_count = 0
+    @AppStorage("squat_goal") private var squat_goal = 10000
+    @AppStorage("squat_inc") private var squat_inc = 10
 
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
             Button {
-                count += increment
+                squat_count += squat_inc
             } label: {
                 Image("cat-squat")
-                .resizable()
-                .scaledToFit()
-                .padding()
-            }.confettiCannon(counter: $count, num: 50, radius: 500.0)
-            ProgressView(value: Float(count), total: Float(goal))
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+            }
+            ProgressView(value: Float(squat_count), total: Float(squat_goal))
             {
                 HStack{
-                    Text("\(count) / \(goal)")
+                    Text("\(squat_count) / \(squat_goal)")
                     Spacer()
-                    Text(String(format: "%.2f", 100*Float(count)/Float(goal)) + "%")
+                    Text(String(format: "%.2f", 100*Float(squat_count)/Float(squat_goal)) + "%")
                 }
             }.padding()
             Spacer()

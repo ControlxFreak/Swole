@@ -2,7 +2,7 @@
 //  SwoleApp.swift
 //  Swole
 //
-//  Created by Anthony Trezza on 12/16/22.
+//  Created by Anthony Trezza on 12/18/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct SwoleApp: App {
     var body: some Scene {
         WindowGroup {
-            PushupView()
+            ContentView()
         }
     }
 }

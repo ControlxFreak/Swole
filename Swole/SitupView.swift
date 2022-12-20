@@ -2,35 +2,34 @@
 //  SitupView.swift
 //  Swole
 //
-//  Created by Anthony Trezza on 12/13/22.
+//  Created by Anthony Trezza on 12/18/22.
 //
-
+import Foundation
 import SwiftUI
 import ConfettiSwiftUI
 
 struct SitupView: View {
-    @State private var manmode: Bool = false
-    @State private var count: Int = 0
-    @State private var goal: Int = 10000
-    @State private var increment: Int = 25
+    @AppStorage("situp_count") private var situp_count = 0
+    @AppStorage("situp_goal") private var situp_goal = 10000
+    @AppStorage("situp_inc") private var situp_inc = 10
 
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
             Button {
-                count += increment
+                situp_count += situp_inc
             } label: {
                 Image("cat-situp")
-                .resizable()
-                .scaledToFit()
-                .padding()
-            }.confettiCannon(counter: $count, num: 50, radius: 500.0)
-            ProgressView(value: Float(count), total: Float(goal))
+                    .resizable()
+                    .scaledToFit()
+                    .padding()
+            }
+            ProgressView(value: Float(situp_count), total: Float(situp_goal))
             {
                 HStack{
-                    Text("\(count) / \(goal)")
+                    Text("\(situp_count) / \(situp_goal)")
                     Spacer()
-                    Text(String(format: "%.2f", 100*Float(count)/Float(goal)) + "%")
+                    Text(String(format: "%.2f", 100*Float(situp_count)/Float(situp_goal)) + "%")
                 }
             }.padding()
             Spacer()

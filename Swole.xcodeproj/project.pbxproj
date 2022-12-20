@@ -7,70 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		878FBB29294D4276007012E1 /* SwoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FBB28294D4276007012E1 /* SwoleApp.swift */; };
-		878FBB2B294D4276007012E1 /* PushupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FBB2A294D4276007012E1 /* PushupView.swift */; };
-		878FBB2D294D4277007012E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FBB2C294D4277007012E1 /* Assets.xcassets */; };
-		878FBB30294D4277007012E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 878FBB2F294D4277007012E1 /* Preview Assets.xcassets */; };
-		878FBB38294D432B007012E1 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 878FBB37294D432B007012E1 /* ConfettiSwiftUI */; };
-		878FBB3F294D5D37007012E1 /* SitupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FBB3E294D5D37007012E1 /* SitupView.swift */; };
-		878FBB41294D5D43007012E1 /* SquatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878FBB40294D5D43007012E1 /* SquatView.swift */; };
+		87C13449294FB625001703E3 /* SwoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C13448294FB625001703E3 /* SwoleApp.swift */; };
+		87C1344B294FB625001703E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1344A294FB625001703E3 /* ContentView.swift */; };
+		87C1344D294FB627001703E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C1344C294FB627001703E3 /* Assets.xcassets */; };
+		87C13450294FB627001703E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C1344F294FB627001703E3 /* Preview Assets.xcassets */; };
+		87C1345A294FB6BF001703E3 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 87C13459294FB6BF001703E3 /* ConfettiSwiftUI */; };
+		87C1345E294FEEAD001703E3 /* PushupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1345D294FEEAD001703E3 /* PushupView.swift */; };
+		87C13460294FEFA1001703E3 /* SitupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1345F294FEFA1001703E3 /* SitupView.swift */; };
+		87C134662950D90A001703E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C134652950D90A001703E3 /* SettingsView.swift */; };
+		87C1346829513C1A001703E3 /* SquatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1346729513C1A001703E3 /* SquatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		878FBB25294D4276007012E1 /* Swole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swole.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		878FBB28294D4276007012E1 /* SwoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleApp.swift; sourceTree = "<group>"; };
-		878FBB2A294D4276007012E1 /* PushupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupView.swift; sourceTree = "<group>"; };
-		878FBB2C294D4277007012E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		878FBB2F294D4277007012E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		878FBB3E294D5D37007012E1 /* SitupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitupView.swift; sourceTree = "<group>"; };
-		878FBB40294D5D43007012E1 /* SquatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatView.swift; sourceTree = "<group>"; };
+		87C13445294FB625001703E3 /* Swole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C13448294FB625001703E3 /* SwoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleApp.swift; sourceTree = "<group>"; };
+		87C1344A294FB625001703E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87C1344C294FB627001703E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C1344F294FB627001703E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87C1345D294FEEAD001703E3 /* PushupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupView.swift; sourceTree = "<group>"; };
+		87C1345F294FEFA1001703E3 /* SitupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitupView.swift; sourceTree = "<group>"; };
+		87C134652950D90A001703E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		87C1346729513C1A001703E3 /* SquatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		878FBB22294D4276007012E1 /* Frameworks */ = {
+		87C13442294FB625001703E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878FBB38294D432B007012E1 /* ConfettiSwiftUI in Frameworks */,
+				87C1345A294FB6BF001703E3 /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		878FBB1C294D4276007012E1 = {
+		87C1343C294FB625001703E3 = {
 			isa = PBXGroup;
 			children = (
-				878FBB27294D4276007012E1 /* Swole */,
-				878FBB26294D4276007012E1 /* Products */,
+				87C13447294FB625001703E3 /* Swole */,
+				87C13446294FB625001703E3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		878FBB26294D4276007012E1 /* Products */ = {
+		87C13446294FB625001703E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				878FBB25294D4276007012E1 /* Swole.app */,
+				87C13445294FB625001703E3 /* Swole.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		878FBB27294D4276007012E1 /* Swole */ = {
+		87C13447294FB625001703E3 /* Swole */ = {
 			isa = PBXGroup;
 			children = (
-				878FBB28294D4276007012E1 /* SwoleApp.swift */,
-				878FBB2A294D4276007012E1 /* PushupView.swift */,
-				878FBB2C294D4277007012E1 /* Assets.xcassets */,
-				878FBB2E294D4277007012E1 /* Preview Content */,
-				878FBB3E294D5D37007012E1 /* SitupView.swift */,
-				878FBB40294D5D43007012E1 /* SquatView.swift */,
+				87C13448294FB625001703E3 /* SwoleApp.swift */,
+				87C1344A294FB625001703E3 /* ContentView.swift */,
+				87C1344C294FB627001703E3 /* Assets.xcassets */,
+				87C1344E294FB627001703E3 /* Preview Content */,
+				87C1345D294FEEAD001703E3 /* PushupView.swift */,
+				87C1345F294FEFA1001703E3 /* SitupView.swift */,
+				87C134652950D90A001703E3 /* SettingsView.swift */,
+				87C1346729513C1A001703E3 /* SquatView.swift */,
 			);
 			path = Swole;
 			sourceTree = "<group>";
 		};
-		878FBB2E294D4277007012E1 /* Preview Content */ = {
+		87C1344E294FB627001703E3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				878FBB2F294D4277007012E1 /* Preview Assets.xcassets */,
+				87C1344F294FB627001703E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,13 +84,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		878FBB24294D4276007012E1 /* Swole */ = {
+		87C13444294FB625001703E3 /* Swole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 878FBB33294D4277007012E1 /* Build configuration list for PBXNativeTarget "Swole" */;
+			buildConfigurationList = 87C13453294FB627001703E3 /* Build configuration list for PBXNativeTarget "Swole" */;
 			buildPhases = (
-				878FBB21294D4276007012E1 /* Sources */,
-				878FBB22294D4276007012E1 /* Frameworks */,
-				878FBB23294D4276007012E1 /* Resources */,
+				87C13441294FB625001703E3 /* Sources */,
+				87C13442294FB625001703E3 /* Frameworks */,
+				87C13443294FB625001703E3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,28 +98,28 @@
 			);
 			name = Swole;
 			packageProductDependencies = (
-				878FBB37294D432B007012E1 /* ConfettiSwiftUI */,
+				87C13459294FB6BF001703E3 /* ConfettiSwiftUI */,
 			);
 			productName = Swole;
-			productReference = 878FBB25294D4276007012E1 /* Swole.app */;
+			productReference = 87C13445294FB625001703E3 /* Swole.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		878FBB1D294D4276007012E1 /* Project object */ = {
+		87C1343D294FB625001703E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					878FBB24294D4276007012E1 = {
+					87C13444294FB625001703E3 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 878FBB20294D4276007012E1 /* Build configuration list for PBXProject "Swole" */;
+			buildConfigurationList = 87C13440294FB625001703E3 /* Build configuration list for PBXProject "Swole" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,47 +127,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 878FBB1C294D4276007012E1;
+			mainGroup = 87C1343C294FB625001703E3;
 			packageReferences = (
-				878FBB36294D432B007012E1 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				87C13458294FB6BF001703E3 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
 			);
-			productRefGroup = 878FBB26294D4276007012E1 /* Products */;
+			productRefGroup = 87C13446294FB625001703E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				878FBB24294D4276007012E1 /* Swole */,
+				87C13444294FB625001703E3 /* Swole */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		878FBB23294D4276007012E1 /* Resources */ = {
+		87C13443294FB625001703E3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878FBB30294D4277007012E1 /* Preview Assets.xcassets in Resources */,
-				878FBB2D294D4277007012E1 /* Assets.xcassets in Resources */,
+				87C13450294FB627001703E3 /* Preview Assets.xcassets in Resources */,
+				87C1344D294FB627001703E3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		878FBB21294D4276007012E1 /* Sources */ = {
+		87C13441294FB625001703E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				878FBB2B294D4276007012E1 /* PushupView.swift in Sources */,
-				878FBB29294D4276007012E1 /* SwoleApp.swift in Sources */,
-				878FBB3F294D5D37007012E1 /* SitupView.swift in Sources */,
-				878FBB41294D5D43007012E1 /* SquatView.swift in Sources */,
+				87C134662950D90A001703E3 /* SettingsView.swift in Sources */,
+				87C1344B294FB625001703E3 /* ContentView.swift in Sources */,
+				87C1345E294FEEAD001703E3 /* PushupView.swift in Sources */,
+				87C1346829513C1A001703E3 /* SquatView.swift in Sources */,
+				87C13460294FEFA1001703E3 /* SitupView.swift in Sources */,
+				87C13449294FB625001703E3 /* SwoleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		878FBB31294D4277007012E1 /* Debug */ = {
+		87C13451294FB627001703E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		878FBB32294D4277007012E1 /* Release */ = {
+		87C13452294FB627001703E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +283,7 @@
 			};
 			name = Release;
 		};
-		878FBB34294D4277007012E1 /* Debug */ = {
+		87C13454294FB627001703E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -304,7 +312,7 @@
 			};
 			name = Debug;
 		};
-		878FBB35294D4277007012E1 /* Release */ = {
+		87C13455294FB627001703E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -336,20 +344,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		878FBB20294D4276007012E1 /* Build configuration list for PBXProject "Swole" */ = {
+		87C13440294FB625001703E3 /* Build configuration list for PBXProject "Swole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				878FBB31294D4277007012E1 /* Debug */,
-				878FBB32294D4277007012E1 /* Release */,
+				87C13451294FB627001703E3 /* Debug */,
+				87C13452294FB627001703E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		878FBB33294D4277007012E1 /* Build configuration list for PBXNativeTarget "Swole" */ = {
+		87C13453294FB627001703E3 /* Build configuration list for PBXNativeTarget "Swole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				878FBB34294D4277007012E1 /* Debug */,
-				878FBB35294D4277007012E1 /* Release */,
+				87C13454294FB627001703E3 /* Debug */,
+				87C13455294FB627001703E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -357,23 +365,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		878FBB36294D432B007012E1 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+		87C13458294FB6BF001703E3 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		878FBB37294D432B007012E1 /* ConfettiSwiftUI */ = {
+		87C13459294FB6BF001703E3 /* ConfettiSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 878FBB36294D432B007012E1 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			package = 87C13458294FB6BF001703E3 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
 			productName = ConfettiSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 878FBB1D294D4276007012E1 /* Project object */;
+	rootObject = 87C1343D294FB625001703E3 /* Project object */;
 }
