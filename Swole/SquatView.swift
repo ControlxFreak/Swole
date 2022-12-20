@@ -13,17 +13,21 @@ struct SquatView: View {
     @AppStorage("squat_goal") private var squat_goal = 10000
     @AppStorage("squat_inc") private var squat_inc = 10
 
+    @State var confcounter : Int = 0
+
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
             Button {
                 squat_count += squat_inc
+                confcounter += 1
             } label: {
                 Image("cat-squat")
                     .resizable()
                     .scaledToFit()
                     .padding()
             }
+            .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
             ProgressView(value: Float(squat_count), total: Float(squat_goal))
             {
                 HStack{
