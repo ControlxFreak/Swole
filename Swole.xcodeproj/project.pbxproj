@@ -7,28 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878F8961295785B400C40E5D /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F8960295785B400C40E5D /* ExerciseView.swift */; };
 		87C13449294FB625001703E3 /* SwoleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C13448294FB625001703E3 /* SwoleApp.swift */; };
 		87C1344B294FB625001703E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1344A294FB625001703E3 /* ContentView.swift */; };
 		87C1344D294FB627001703E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C1344C294FB627001703E3 /* Assets.xcassets */; };
 		87C13450294FB627001703E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C1344F294FB627001703E3 /* Preview Assets.xcassets */; };
 		87C1345A294FB6BF001703E3 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 87C13459294FB6BF001703E3 /* ConfettiSwiftUI */; };
-		87C1345E294FEEAD001703E3 /* PushupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1345D294FEEAD001703E3 /* PushupView.swift */; };
-		87C13460294FEFA1001703E3 /* SitupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1345F294FEFA1001703E3 /* SitupView.swift */; };
 		87C134662950D90A001703E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C134652950D90A001703E3 /* SettingsView.swift */; };
-		87C1346829513C1A001703E3 /* SquatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C1346729513C1A001703E3 /* SquatView.swift */; };
 		87C1346A29528745001703E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C1346929528745001703E3 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		878F8960295785B400C40E5D /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		87C13445294FB625001703E3 /* Swole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C13448294FB625001703E3 /* SwoleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwoleApp.swift; sourceTree = "<group>"; };
 		87C1344A294FB625001703E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87C1344C294FB627001703E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C1344F294FB627001703E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		87C1345D294FEEAD001703E3 /* PushupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupView.swift; sourceTree = "<group>"; };
-		87C1345F294FEFA1001703E3 /* SitupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitupView.swift; sourceTree = "<group>"; };
 		87C134652950D90A001703E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		87C1346729513C1A001703E3 /* SquatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatView.swift; sourceTree = "<group>"; };
 		87C1346929528745001703E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,10 +64,8 @@
 				87C1344A294FB625001703E3 /* ContentView.swift */,
 				87C1344C294FB627001703E3 /* Assets.xcassets */,
 				87C1344E294FB627001703E3 /* Preview Content */,
-				87C1345D294FEEAD001703E3 /* PushupView.swift */,
-				87C1345F294FEFA1001703E3 /* SitupView.swift */,
 				87C134652950D90A001703E3 /* SettingsView.swift */,
-				87C1346729513C1A001703E3 /* SquatView.swift */,
+				878F8960295785B400C40E5D /* ExerciseView.swift */,
 			);
 			path = Swole;
 			sourceTree = "<group>";
@@ -163,9 +157,7 @@
 			files = (
 				87C134662950D90A001703E3 /* SettingsView.swift in Sources */,
 				87C1344B294FB625001703E3 /* ContentView.swift in Sources */,
-				87C1345E294FEEAD001703E3 /* PushupView.swift in Sources */,
-				87C1346829513C1A001703E3 /* SquatView.swift in Sources */,
-				87C13460294FEFA1001703E3 /* SitupView.swift in Sources */,
+				878F8961295785B400C40E5D /* ExerciseView.swift in Sources */,
 				87C13449294FB625001703E3 /* SwoleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
