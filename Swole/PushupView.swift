@@ -19,27 +19,33 @@ struct PushupView: View {
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
-            Button {
-                pushup_count += pushup_inc
-                confcounter += 1
-            } label: {
-                Image("cat-pushup")
-                    .resizable()
-                    .scaledToFit()
-                    .padding()
-            }
-            .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
+            Image("cat-pushup")
+                .resizable()
+                .scaledToFit()
+                .padding()
+                .onTapGesture(count: 2){
+                    pushup_count -= pushup_inc
+                }
+                .onTapGesture(count: 1) {
+                    pushup_count += pushup_inc
+                    confcounter += 1
+                }
+                .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
+
             ProgressView(value: Float(pushup_count), total: Float(pushup_goal))
             {
                 HStack{
                     Text("\(pushup_count) / \(pushup_goal)")
+                        .foregroundColor(.black)
                     Spacer()
                     Text(String(format: "%.2f", 100*Float(pushup_count)/Float(pushup_goal)) + "%")
+                        .foregroundColor(.black)
                 }
             }.padding()
             Spacer()
         }
         .padding()
+        .background(Color.white)
     }
 }
 

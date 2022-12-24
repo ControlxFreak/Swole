@@ -18,27 +18,32 @@ struct SquatView: View {
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
-            Button {
-                squat_count += squat_inc
-                confcounter += 1
-            } label: {
-                Image("cat-squat")
-                    .resizable()
-                    .scaledToFit()
-                    .padding()
-            }
-            .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
+            Image("cat-squat")
+                .resizable()
+                .scaledToFit()
+                .padding()
+                .onTapGesture(count: 2){
+                    squat_count -= squat_inc
+                }
+                .onTapGesture(count: 1) {
+                    squat_count += squat_inc
+                    confcounter += 1
+                }
+                .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
             ProgressView(value: Float(squat_count), total: Float(squat_goal))
             {
                 HStack{
                     Text("\(squat_count) / \(squat_goal)")
+                        .foregroundColor(.black)
                     Spacer()
                     Text(String(format: "%.2f", 100*Float(squat_count)/Float(squat_goal)) + "%")
+                        .foregroundColor(.black)
                 }
             }.padding()
             Spacer()
         }
         .padding()
+        .background(Color.white)
     }
 }
 

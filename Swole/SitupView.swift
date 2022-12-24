@@ -18,27 +18,32 @@ struct SitupView: View {
     var body: some View {
         VStack(spacing: 10) {
             Spacer()
-            Button {
-                situp_count += situp_inc
-                confcounter += 1
-            } label: {
-                Image("cat-situp")
-                    .resizable()
-                    .scaledToFit()
-                    .padding()
-            }
-            .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
+            Image("cat-situp")
+                .resizable()
+                .scaledToFit()
+                .padding()
+                .onTapGesture(count: 2){
+                    situp_count -= situp_inc
+                }
+                .onTapGesture(count: 1) {
+                    situp_count += situp_inc
+                    confcounter += 1
+                }
+                .confettiCannon(counter: $confcounter, num: 50, radius: 500.0)
             ProgressView(value: Float(situp_count), total: Float(situp_goal))
             {
                 HStack{
                     Text("\(situp_count) / \(situp_goal)")
+                        .foregroundColor(.black)
                     Spacer()
                     Text(String(format: "%.2f", 100*Float(situp_count)/Float(situp_goal)) + "%")
+                        .foregroundColor(.black)
                 }
             }.padding()
             Spacer()
         }
         .padding()
+        .background(Color.white)
     }
 }
 
