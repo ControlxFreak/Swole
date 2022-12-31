@@ -1,16 +1,20 @@
 # Swole
+
 While I was at the gym, I was curious how many pushups I did in 2022.
 
 Now with Swole, guessing is a thing of the past!
 
 My goal for 2023 is to do:
+
 * 10,000 pushups (~27/day)
 * 1,000 mins of Abs (~3 mins/day)
 * 10,000 squats (~27/day)
 
 ... I hope the daily dopeamine injection provided by the confetti cannon is enough to keep me motivated...
 
-![screenshot](assets/docs/swole_demo.gif)
+<p align="center">
+    <img src=assets/docs/swole_demo.gif>
+</p>
 
 # Usage
 
